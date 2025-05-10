@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding-top: 100px;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            display: inline-block;
+            box-shadow: 0 0 10px #aaa;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 250px;
+            padding: 10px;
+            margin: 10px 0;
+            display: block;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #0077cc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Login to View Student Records</h2>
+
+    <form action="records.html" method="get">
+        <input type="text" name="username" placeholder="Enter Your Name" required>
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <input type="submit" value="Login">
+    </form>
+
+    <a href="success.html">Continue without login (demo)</a>
+
+</body>
+</html>
